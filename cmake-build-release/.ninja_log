@@ -1,0 +1,22 @@
+# ninja log v6
+1982	2105	7964470283054829	ParallelSort.exe	70052a0690e6937f
+34	1982	7964470263571346	CMakeFiles/ParallelSort.dir/parallel.cpp.obj	f2ef3626b7b08676
+32	1982	7964471456733770	CMakeFiles/SequentialSort.dir/sequential.cpp.obj	8a368f0c4f274542
+1982	2131	7964471476240647	SequentialSort.exe	3137d149b1d5edf3
+32	1896	7964477817162954	CMakeFiles/Benchmark.dir/sequential.cpp.obj	353f93e416e285ae
+32	1913	7964478073984660	CMakeFiles/Benchmark.dir/benchmark.cpp.obj	797ffb1fb928435a
+1914	2026	7964478092800734	Benchmark.exe	abfbc6cd83cabfcb
+36	1894	7964477817198065	CMakeFiles/Benchmark.dir/parallel.cpp.obj	9a43e1d98564ecb0
+29	355	7964617483058110	build.ninja	b695b40715cc8482
+25	1016	7964617565284719	CMakeFiles/SequentialTest.dir/sequentialTest.cpp.obj	3593895ab4473670
+1016	1178	7964617575206516	SequentialTest.exe	143b4d526f523c54
+34	820	7964618894499872	CMakeFiles/SequentialTest.dir/sequentialTest.cpp.obj	3593895ab4473670
+821	951	7964618902367197	SequentialTest.exe	143b4d526f523c54
+28	830	7964619518822289	CMakeFiles/SequentialTest.dir/sequentialTest.cpp.obj	3593895ab4473670
+830	938	7964619526846437	SequentialTest.exe	143b4d526f523c54
+4	1985	7964638666630888	CMakeFiles/Benchmark.dir/benchmark.cpp.obj	797ffb1fb928435a
+1986	2139	7964638686455135	Benchmark.exe	abfbc6cd83cabfcb
+65	4270	7964805792393603	CMakeFiles/Benchmark.dir/benchmark.cpp.obj	797ffb1fb928435a
+4271	4873	7964805834463077	Benchmark.exe	abfbc6cd83cabfcb
+27	1904	7964806068742739	CMakeFiles/Benchmark.dir/benchmark.cpp.obj	797ffb1fb928435a
+1904	2018	7964806087508806	Benchmark.exe	abfbc6cd83cabfcb

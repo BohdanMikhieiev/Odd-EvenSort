@@ -1,0 +1,11 @@
+# ninja log v6
+38	2440	7960899715895353	CMakeFiles/Sem6CourseWork.dir/sequential.cpp.obj	c7809280175218e1
+30	2041	7952878702972639	CMakeFiles/Sem6CourseWork.dir/main.cpp.obj	78fa49b5379a4a2e
+30	1807	7960906554157729	CMakeFiles/ParallelSort.dir/parallel.cpp.obj	3ce7e6804b5831ca
+26	366	7960908109860436	build.ninja	c4578a7d5553c5f0
+44	2439	7960899715950458	CMakeFiles/Sem6CourseWork.dir/parallel.cpp.obj	5c5f7e9e4a6fd7ef
+25	1996	7960906439474894	CMakeFiles/SequentialSort.dir/sequential.cpp.obj	d5591b1c361f40d7
+1998	2184	7960906459204700	SequentialSort.exe	cb39829844c00ebb
+2	350	7960908109860436	build.ninja	c4578a7d5553c5f0
+24	1875	7960908111004912	CMakeFiles/ParallelSort.dir/parallel.cpp.obj	daebe6930ea877c2
+1875	2003	7960908129510496	ParallelSort.exe	c0a423559b433b17

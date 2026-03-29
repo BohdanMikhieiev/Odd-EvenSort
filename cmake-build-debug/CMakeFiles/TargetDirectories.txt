@@ -1,0 +1,4 @@
+D:/CLion/Sem6CourseWork/cmake-build-debug/CMakeFiles/SequentialSort.dir
+D:/CLion/Sem6CourseWork/cmake-build-debug/CMakeFiles/ParallelSort.dir
+D:/CLion/Sem6CourseWork/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLion/Sem6CourseWork/cmake-build-debug/CMakeFiles/rebuild_cache.dir
