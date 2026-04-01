@@ -1,10 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <chrono>
-#include <random>
 
-void oddEvenSortSequential(std::vector<int>& arr) {
+void oddEvenSortSequential(std::vector<double>& arr) {
     size_t n = arr.size();
     bool sorted = false;
 

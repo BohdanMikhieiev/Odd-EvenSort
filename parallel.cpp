@@ -1,11 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <chrono>
-#include <random>
 #include <omp.h>
 
-void oddEvenSortParallel(std::vector<int>& arr, int numThreads) {
+void oddEvenSortParallel(std::vector<double>& arr, int numThreads) {
     size_t n = arr.size();
     bool sorted = false;
 

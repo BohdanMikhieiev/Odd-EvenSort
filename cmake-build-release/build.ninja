@@ -119,6 +119,58 @@ build SequentialTest.exe: CXX_EXECUTABLE_LINKER__SequentialTest_Release CMakeFil
   TARGET_IMPLIB = libSequentialTest.dll.a
   TARGET_PDB = SequentialTest.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ThreadComparison
+
+
+#############################################
+# Order-only phony target for ThreadComparison
+
+build cmake_object_order_depends_target_ThreadComparison: phony || .
+
+build CMakeFiles/ThreadComparison.dir/oddEvenSortStdThreadComparison.cpp.obj: CXX_COMPILER__ThreadComparison_unscanned_Release D$:/CLion/Sem6CourseWork/oddEvenSortStdThreadComparison.cpp || cmake_object_order_depends_target_ThreadComparison
+  DEP_FILE = CMakeFiles\ThreadComparison.dir\oddEvenSortStdThreadComparison.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -fopenmp -O3 -fopenmp
+  OBJECT_DIR = CMakeFiles\ThreadComparison.dir
+  OBJECT_FILE_DIR = CMakeFiles\ThreadComparison.dir
+
+build CMakeFiles/ThreadComparison.dir/sequential.cpp.obj: CXX_COMPILER__ThreadComparison_unscanned_Release D$:/CLion/Sem6CourseWork/sequential.cpp || cmake_object_order_depends_target_ThreadComparison
+  DEP_FILE = CMakeFiles\ThreadComparison.dir\sequential.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -fopenmp -O3 -fopenmp
+  OBJECT_DIR = CMakeFiles\ThreadComparison.dir
+  OBJECT_FILE_DIR = CMakeFiles\ThreadComparison.dir
+
+build CMakeFiles/ThreadComparison.dir/parallel.cpp.obj: CXX_COMPILER__ThreadComparison_unscanned_Release D$:/CLion/Sem6CourseWork/parallel.cpp || cmake_object_order_depends_target_ThreadComparison
+  DEP_FILE = CMakeFiles\ThreadComparison.dir\parallel.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -fopenmp -O3 -fopenmp
+  OBJECT_DIR = CMakeFiles\ThreadComparison.dir
+  OBJECT_FILE_DIR = CMakeFiles\ThreadComparison.dir
+
+build CMakeFiles/ThreadComparison.dir/benchmark.cpp.obj: CXX_COMPILER__ThreadComparison_unscanned_Release D$:/CLion/Sem6CourseWork/benchmark.cpp || cmake_object_order_depends_target_ThreadComparison
+  DEP_FILE = CMakeFiles\ThreadComparison.dir\benchmark.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -fopenmp -O3 -fopenmp
+  OBJECT_DIR = CMakeFiles\ThreadComparison.dir
+  OBJECT_FILE_DIR = CMakeFiles\ThreadComparison.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ThreadComparison
+
+
+#############################################
+# Link the executable ThreadComparison.exe
+
+build ThreadComparison.exe: CXX_EXECUTABLE_LINKER__ThreadComparison_Release CMakeFiles/ThreadComparison.dir/oddEvenSortStdThreadComparison.cpp.obj CMakeFiles/ThreadComparison.dir/sequential.cpp.obj CMakeFiles/ThreadComparison.dir/parallel.cpp.obj CMakeFiles/ThreadComparison.dir/benchmark.cpp.obj
+  FLAGS = -O3 -DNDEBUG
+  LINK_FLAGS = -fopenmp
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ThreadComparison.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ThreadComparison.exe
+  TARGET_IMPLIB = libThreadComparison.dll.a
+  TARGET_PDB = ThreadComparison.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -149,6 +201,8 @@ build Benchmark: phony Benchmark.exe
 
 build SequentialTest: phony SequentialTest.exe
 
+build ThreadComparison: phony ThreadComparison.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -157,7 +211,7 @@ build SequentialTest: phony SequentialTest.exe
 #############################################
 # Folder: D:/CLion/Sem6CourseWork/cmake-build-release
 
-build all: phony Benchmark.exe SequentialTest.exe
+build all: phony Benchmark.exe SequentialTest.exe ThreadComparison.exe
 
 # =============================================================================
 # Built-in targets

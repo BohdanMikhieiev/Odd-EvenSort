@@ -1,4 +1,5 @@
 D:/CLion/Sem6CourseWork/cmake-build-release/CMakeFiles/Benchmark.dir
 D:/CLion/Sem6CourseWork/cmake-build-release/CMakeFiles/SequentialTest.dir
+D:/CLion/Sem6CourseWork/cmake-build-release/CMakeFiles/ThreadComparison.dir
 D:/CLion/Sem6CourseWork/cmake-build-release/CMakeFiles/edit_cache.dir
 D:/CLion/Sem6CourseWork/cmake-build-release/CMakeFiles/rebuild_cache.dir
